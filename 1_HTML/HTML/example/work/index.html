@@ -4,18 +4,25 @@
     <meta charset="UTF-8">
     <title>imooc</title>
     <style>
+        body{width:100%;}
         head,body,table,tr,td,select,img,h1,h2,h3,h4,h5,h6,p,a,div,li,ul,dl,ol,dd,dt,img{padding:0;margin:0;}
         td{font-size:13px;}
+        .nav span{margin:10px;}
         .logo{width:230px;}
-
+        .href{height:50px;}
+        .footer{height:80px;}
+        .MainTable{margin-left:20%;}
+        .MainTable img{width:120px;height:80px;}
+        .recent{margin-top:60px;display:block;}
+        .bot{margin-top:20px;}
     </style>
 </head>
 <body>
-    <table width="100%" align="center" cellpadding="0" cellspacing="0">
+    <table width="100%" cellpadding="0" cellspacing="0">
         <!--header-->
         <tr bgcolor="#E1F2F9">
             <td class="logo"><img src="image/logo.png"/></td>
-            <td style="font-size:13px;">
+            <td style="font-size:13px;" align="center"  class="nav">
                 <span>学校概况</span>
                 <span>机构设置</span>
                 <span>师资队伍</span>
@@ -39,10 +46,11 @@
         <tr>
             <td colspan="3"><img width="100%" height="300px" src="image/banner.jpg" /></td>
         </tr>
+    </table>
+    <table class="MainTable" width="60%" cellpadding="0" cellspacing="0" align="center">
         <!--main-->
         <tr>
             <td align="center">
-
                     <p><strong>慕课快讯、基层风采、媒体聚焦、慕课视频 >></strong></p>
                     <p>>慕课平台课程扩容 涵盖多个领域 12-30</p>
                     <p>>慕课平台课程扩容 涵盖多个领域 12-30</p>
@@ -52,7 +60,6 @@
                     <p>>慕课平台课程扩容 涵盖多个领域 12-30</p>
                     <p>>慕课平台课程扩容 涵盖多个领域 12-30</p>
                     <p>>慕课平台课程扩容 涵盖多个领域 12-30</p>
-
             </td>
             <td align="center">
                 <ul>
@@ -71,10 +78,12 @@
                 <img width="200px" height="200px" src="image/weixin.png" />
             </td>
         </tr>
+    </table>
+    <table class="MainTable" width="60%" cellpadding="0" cellspacing="0" align="center">
         <tr>
-            <td colspan="3">近期专题</td>
+            <td class="recent" colspan="3">近期专题</td>
         </tr>
-        <tr>
+        <tr align="center" class="pics">
             <td align="center">
                 <img src="image/1.png" />
                 <p>教育发展基金专题</p>
@@ -88,26 +97,26 @@
                 <p>教育发展基金专题</
             </td>
         </tr>
+    </table>
+    <table width="100%" cellpadding="0" cellspacing="0" class="bot">
         <!--href-->
         <tr>
-            <td colspan="3" bgcolor="#E1F2F9" align="center">
-                <ul>
-                    <li>文化站点</li>
-                    <li>信息服务</li>
-                    <li>校友会</li>
-                    <li>OA系统</li>
-                    <li>教务管理系统</li>
-                    <li>网络教学平台</li>
-                    <li>vpn服务</li>
-                    <li>acm／oj</li>
-                    <li>旧版入口</li>
-                    <li>站群系统</li>
-                </ul>
+            <td class="href" colspan="3" bgcolor="#E1F2F9" align="center" valign="center">
+                <span>文化站点</span>
+                <span>信息服务</span>
+                <span>校友会</span>
+                <span>OA系统</span>
+                <span>教务管理系统</span>
+                <span>网络教学平台</span>
+                <span>vpn服务</span>
+                <span>acm／oj</span>
+                <span>旧版入口</span>
+                <span>站群系统</span>
             </td>
         </tr>
         <!--footer-->
         <tr bgcolor="#89A9BD">
-            <td colspan="3" align="center">
+            <td colspan="3" align="center" class="footer">
                 <p>Copyright &copy; 2017 imooc ALL Rights Reserved | 京ICP备 ISO4758号-2</p>
             </td>
         </tr>
